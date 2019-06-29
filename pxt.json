@@ -3,15 +3,18 @@
     "version": "0.0.0",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "pxt-arcade-dom": "workspace:0b6d46bd-5408-444d-6841-9cd62d5863ea"
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "vdom.ts",
+        "vpatch.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": false,
-    "additionalFilePaths": []
+    "preferredEditor": "tsprj"
 }
